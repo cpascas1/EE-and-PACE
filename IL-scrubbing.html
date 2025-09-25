@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>E&E and PACE</title>
+    <!-- site icon -->
+    <link rel="icon" href="images/CH-logo.png" type="image/png" />
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="vendors/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel-2/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel-2/owl.theme.default.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+          <a class="sidebar-brand brand-logo" href="index.html"><img src="images/CH-logo-2.png" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="images/CH-mini-logo.PNG" alt="logo" /></a>
+        </div>
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+              <div class="profile-pic">
+                <div class="count-indicator">
+                  <img class="img-xs rounded-circle " src="images/faces/user-icon.png" alt="">
+                  <span class="count bg-success"></span>
+                </div>
+                <div class="profile-name">
+                  <h5 class="mb-0 font-weight-normal">Team Kaye</h5>
+                  <span>QC and Cebu</span>
+                </div>
+              </div>
+              <a href="#"><i class="mdi mdi-dots-vertical"></i></a>
+            </div>
+          </li>
+          <li class="nav-item nav-category">
+            <span class="nav-link">Navigation</span>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="index.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-speedometer"></i>
+              </span>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ui-il" aria-expanded="false" aria-controls="ui-il">
+              <span class="menu-icon">
+                <i class="mdi mdi-laptop"></i>
+              </span>
+              <span class="menu-title">IL Hotline</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-il">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="IL-SOP.html">SOP</a></li>
+                <li class="nav-item"> <a class="nav-link" href="IL-scenarios.html">Scenarios</a></li>
+                <li class="nav-item"> <a class="nav-link" href="IL-templates.html">Notes Template</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="IL-scrubbing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-clipboard-text"></i>
+              </span>
+              <span class="menu-title">IL Scrubbing</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ui-sc" aria-expanded="false" aria-controls="ui-sc">
+              <span class="menu-icon">
+                <i class="mdi mdi-book-multiple"></i>
+              </span>
+              <span class="menu-title">SC Hotline</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-sc">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="SC-SOP.html">SOP</a></li>
+                <li class="nav-item"> <a class="nav-link" href="SC-scenarios.html">Scenarios</a></li>
+                <li class="nav-item"> <a class="nav-link" href="SC-templates.html">Notes Template</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="adding-accounts-to-billing-list.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-library-books"></i>
+              </span>
+              <span class="menu-title">Adding Account <br> to Billing List</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ui-northside" aria-expanded="false" aria-controls="ui-northside">
+              <span class="menu-icon">
+                <i class="mdi mdi-monitor-multiple"></i>
+              </span>
+              <span class="menu-title">Northside Gateway</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-northside">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="gateway.html">SOP</a></li>
+                <li class="nav-item"> <a class="nav-link" href="gateway-status.html">Status</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="emory-reactives.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-checkerboard"></i>
+              </span>
+              <span class="menu-title">Emory Reactives</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ui-medicaid" aria-expanded="false" aria-controls="ui-medicaid">
+              <span class="menu-icon">
+                <i class="mdi mdi-clipboard-check"></i>
+              </span>
+              <span class="menu-title">Medicaid check</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-medicaid">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="medicaid-SOP.html">SOP</a></li>
+                <li class="nav-item"> <a class="nav-link" href="medicaid-reminders.html">Reminders</a></li>
+                <li class="nav-item"> <a class="nav-link" href="medicaid-clarifications.html">Clarifications</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="discharge-SOP.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-hospital-building"></i>
+              </span>
+              <span class="menu-title">Discharge and Total <br> Charge Update</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="grady.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-database"></i>
+              </span>
+              <span class="menu-title">Grady Gateway</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo" /></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <!--<ul class="navbar-nav w-100">
+              <li class="nav-item w-100">
+                <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                  <input type="text" class="form-control" placeholder="Search products">
+                </form>
+              </li>
+            </ul>-->
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown">
+                <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="images/faces/user-icon.png" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Team Kaye</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title"> Adding the Coverage Insight application to the Billing List </h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">IL Scrubbing</a></li>
+                </ol>
+              </nav>
+            </div>
+
+            <div class="row ">
+                <div class="col-6 grid-margin stretch-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title" style="color: yellow;">OGA Status</h4>
+                        <ul style="float: left;">
+                            <li>Billed</li>
+                            <li>Billed - Presumptive</li>
+                        </ul>
+                        <ul style="float: right;">
+                            <li>Not Billed</li>
+                            <li>Coverage status is inactive in RPA</li>
+                            <li>Existing Coverage</li>
+                            <li>DOS not covered</li>
+                            <li>Last Update date is more than 6 months</li>
+                            <li>Last Update date not found</li>
+                            <li>Application is already closed in PACE</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 grid-margin stretch-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <p style="color: yellow;font-size: 18px;font-weight: bold;">NOTE:</p>
+                        <p style="font-size: 15px;">
+                            <span style="color: orangered;">Proof Type</span> - <span style="font-style: italic;">Medifax/Emdeon</span> <br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <p style="color: white;font-size: 18px;font-weight: bold;"><a href="docs/Adding Coverage Insight Apps to Billing List SOP 1.docx"><span style="color: yellow;" title="Click here to download">Download</span></a> Word file.</p>
+                    <object data="docs/Adding Coverage Insight Apps to Billing List SOP 1.pdf" type="application/pdf" width="100%" height="800px">
+                    </object>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:partials/_footer.html -->
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">© 2025 Optum, Inc.</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center" style="color: orangered;">Optum</span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="vendors/chart.js/Chart.min.js"></script>
+    <script src="vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/misc.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+  </body>
+</html>
